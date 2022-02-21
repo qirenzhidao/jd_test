@@ -10,7 +10,7 @@
 
 ================Loon==============
 [Script]
-cron "20 0-23/3 * * *" script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_jdtj_winner.js,tag=京东特价翻翻乐
+cron "20 3,20 * * *" script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_jdtj_winner.js,tag=京东特价翻翻乐
 
 ===============Surge=================
 京东特价翻翻乐 = type=cron,cronexp="20 0-23/3 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_jdtj_winner.js

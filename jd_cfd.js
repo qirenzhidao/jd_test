@@ -13,7 +13,7 @@ cron 1 * * * * jd_cfd.js
 
 ================Loon==============
 [Script]
-cron "1 * * * *" script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_cfd.js,tag=京喜财富岛
+cron "1 0,5-23/4 * * *" script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_cfd.js,tag=京喜财富岛
 
 ===============Surge=================
 京喜财富岛 = type=cron,cronexp="1 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_cfd.js

@@ -7,7 +7,7 @@
 ============Quantumultx===============
 [task_local]
 #京喜牧场
-20 0-23/2 * * * https://raw.githubusercontent.com/KingRan/JDJB/main/jd_jxmc.js, tag=京喜牧场, img-url=https://github.com/58xinian/icon/raw/master/jdgc.png, enabled=true
+20 0,5-23/4 * * * https://raw.githubusercontent.com/KingRan/JDJB/main/jd_jxmc.js, tag=京喜牧场, img-url=https://github.com/58xinian/icon/raw/master/jdgc.png, enabled=true
 
 ================Loon==============
 [Script]

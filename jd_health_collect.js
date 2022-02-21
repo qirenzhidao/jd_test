@@ -13,7 +13,7 @@
 
 =====================Loon================
 [Script]
-cron "5-45/20 * * * *" script-path=jd_health_collect.js, tag=东东健康社区收集能量
+cron "35 0-23/2 * * *" script-path=jd_health_collect.js, tag=东东健康社区收集能量
 
 ====================Surge================
 东东健康社区收集能量 = type=cron,cronexp="5-45/20 * * * *",wake-system=1,timeout=3600,script-path=jd_health_collect.js

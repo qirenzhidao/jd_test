@@ -12,7 +12,7 @@
 ============Quantumultx===============
 [task_local]
 #东东工厂
-10 0,6-23 * * * https://raw.githubusercontent.com/KingRan/JDJB/main/jd_jdfactory.js, tag=东东工厂, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_factory.png, enabled=true
+10 0,6-23/9 * * * https://raw.githubusercontent.com/KingRan/JDJB/main/jd_jdfactory.js, tag=东东工厂, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_factory.png, enabled=true
 
 ================Loon==============
 [Script]
