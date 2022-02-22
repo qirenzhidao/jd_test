@@ -16,7 +16,7 @@
 
 ================Loon==============
 [Script]
-cron "10 0,6-23 * * *" script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_jdfactory.js,tag=东东工厂
+cron "10 0,6-23/9 * * *" script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_jdfactory.js,tag=东东工厂
 
 ===============Surge=================
 东东工厂 = type=cron,cronexp="10 0,6-23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_jdfactory.js

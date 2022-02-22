@@ -15,7 +15,7 @@
 
 ================Loon==============
 [Script]
-cron "10 0,6-23 * * *" script-path=jd_dreamFactory.js,tag=京喜工厂
+cron "10 0,6-23/4 * * *" script-path=jd_dreamFactory.js,tag=京喜工厂
 
 ===============Surge=================
 京喜工厂 = type=cron,cronexp="10 0,6-23 * * *",wake-system=1,timeout=3600,script-path=jd_dreamFactory.js
